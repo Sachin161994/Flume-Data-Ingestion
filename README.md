@@ -1,6 +1,6 @@
 # Flume-Data-Ingestion
 Here is the .conf file you'd use after setting up flume on your machine.
-TwitterAgent.sources = Twitter /n
+TwitterAgent.sources = Twitter 
 TwitterAgent.channels = MemChannel
 TwitterAgent.sinks = HDFS
  
